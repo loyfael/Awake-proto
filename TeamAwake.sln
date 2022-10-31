@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libs", "libs", "{57E559EA-0959-479E-9FD6-CC83FCB9D774}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{58844066-5DE1-465F-91E9-A155F14B73E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tools", "tools", "{2F1CD9AC-B101-4773-959E-91AD4EB8F78A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{C14FECBA-24B7-46D6-B94D-7308E00281D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamAwake.Core", "libs\TeamAwake.Core\TeamAwake.Core.csproj", "{1AA0517A-6AF4-4719-B022-0272CEA8A2F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamAwake.Protocol", "libs\TeamAwake.Protocol\TeamAwake.Protocol.csproj", "{73CB06C9-4811-44DD-B4A1-5F16C7BB37FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamAwake.Servers.RealmServer", "src\TeamAwake.Servers.RealmServer\TeamAwake.Servers.RealmServer.csproj", "{D60E9741-E81D-4781-BF2D-CE571179E02E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1AA0517A-6AF4-4719-B022-0272CEA8A2F9} = {57E559EA-0959-479E-9FD6-CC83FCB9D774}
+		{73CB06C9-4811-44DD-B4A1-5F16C7BB37FE} = {57E559EA-0959-479E-9FD6-CC83FCB9D774}
+		{D60E9741-E81D-4781-BF2D-CE571179E02E} = {58844066-5DE1-465F-91E9-A155F14B73E3}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1AA0517A-6AF4-4719-B022-0272CEA8A2F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AA0517A-6AF4-4719-B022-0272CEA8A2F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AA0517A-6AF4-4719-B022-0272CEA8A2F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AA0517A-6AF4-4719-B022-0272CEA8A2F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73CB06C9-4811-44DD-B4A1-5F16C7BB37FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73CB06C9-4811-44DD-B4A1-5F16C7BB37FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73CB06C9-4811-44DD-B4A1-5F16C7BB37FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73CB06C9-4811-44DD-B4A1-5F16C7BB37FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D60E9741-E81D-4781-BF2D-CE571179E02E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D60E9741-E81D-4781-BF2D-CE571179E02E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D60E9741-E81D-4781-BF2D-CE571179E02E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D60E9741-E81D-4781-BF2D-CE571179E02E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
