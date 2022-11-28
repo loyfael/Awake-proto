@@ -18,7 +18,7 @@
     </ItemGroup>
     
     <ItemGroup>
-      <PackageReference Include="Serilog.AspNetCore" Version="6.1.0-dev-00285" />
+      <PackageReference Include="Serilog.AspNetCore" Version="6.1.0-dev-00289" />
     </ItemGroup>
 
 </Project>
